@@ -5,7 +5,7 @@
     "1": {
       "name": "mainnet",
       "gsnConfig": {
-		  "relayLookupWindowBlocks": 60001
+		  "relayRegistrationMaximumAge": 60001
       }
     },
     "4": {
