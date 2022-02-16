@@ -1,0 +1,67 @@
+{
+  "description": "List of networks with official OpenGSN deployment. For testnets, we also provide an \"accept-everything\" Paymaster.",
+  "version": "2.2.4",
+  "networks": {
+    "1": {
+      "name": "mainnet",
+      "gsnConfig": {
+		  "relayLookupWindowBlocks": 60001
+      }
+    },
+    "4": {
+      "name": "rinkeby",
+      "gsnConfig": {
+	  }
+    },
+    "3": {
+      "name": "ropsten",
+      "gsnConfig": {
+	  }
+    },
+    "5": {
+      "name": "goerli",
+      "gsnConfig": {
+	  }
+    },
+    "42": {
+      "name": "kovan",
+      "gsnConfig": {
+	  }
+    },
+    "137": {
+      "name": "polygon",
+      "gsnConfig": {
+	  }
+    },
+    "80001": {
+      "name": "mumbai",
+      "gsnConfig": {
+	  }
+    },
+    "61": {
+      "name": "etc",
+      "gsnConfig": {
+	  }
+    },
+    "6": {
+      "name": "kotti",
+      "gsnConfig": {
+	  }
+    },
+    "56": {
+      "name": "bsc",
+      "gsnConfig": {
+	  }
+    },
+    "97": {
+      "name": "bsctest",
+      "gsnConfig": {
+	  }
+    },
+    "100": {
+      "name": "xdai",
+      "gsnConfig": {
+	  }
+    }
+  }
+}
