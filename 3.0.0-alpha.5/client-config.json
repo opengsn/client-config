@@ -1,0 +1,25 @@
+{
+  "version": "3.0.0-alpha.5",
+  "networks": {
+    "5": {
+      "name": "goerli",
+      "gsnConfig": {
+      }
+    },
+    "80001": {
+      "name": "mumbai",
+      "gsnConfig": {
+	   }
+    },
+    "43113": {
+      "name": "fuji",
+      "gsnConfig": {
+  	  }
+    },
+    "69": {
+      "name": "kovan-optimism",
+      "gsnConfig": {
+  	  }
+    }
+  }
+}
