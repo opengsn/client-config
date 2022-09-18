@@ -1,6 +1,30 @@
 {
   "version": "3.0.0-beta.2",
   "networks": {
+	"1": {
+      "name": "mainnet",
+      "gsnConfig": {
+		  "tokenPaymasterDomainSeparators": {
+			  "0x6B175474E89094C44Da98b954EedeAC495271d0F": {
+				  "name": "Dai Stablecoin",
+				  "version": "1",
+				  "chainId": 1,
+				  "verifyingContract": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+			  },
+			  "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48": {
+				  "name": "USD Coin",
+				  "version": "2",
+				  "chainId": 1,
+				  "verifyingContract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+			  },
+			  "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984": {
+				  "name": "Uniswap",
+				  "chainId": 1,
+				  "verifyingContract": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984"
+			  }
+		  }
+      }
+    },
     "5": {
       "name": "goerli",
       "gsnConfig": {
